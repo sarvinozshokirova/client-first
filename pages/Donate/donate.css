@@ -132,7 +132,7 @@
   line-height: 160%;
 }
 
-.tab-link::before {
+/* .tab-link::before {
   display: inline-block;
   content: "";
   background-color: #70c174;
@@ -146,7 +146,7 @@
 
 .tab-link:hover::before {
   width: 100%;
-}
+} */
 
 .tab-p {
   color: var(--secondary-text, #525560);
