@@ -1,0 +1,78 @@
+.info {
+  margin-top: 9.6rem;
+}
+
+.container {
+}
+.info__conatainer {
+}
+
+.info__text-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+  margin-left: 12rem;
+  margin-bottom: 3.2rem;
+}
+
+.projects__line {
+}
+
+.projext__text {
+}
+
+.projects__inner-wrapper {
+  width: 100%;
+  max-width: 83.2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weeklyprog__title {
+  color: var(--primary-text);
+  font-size: 5.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.weekly__prog-desc {
+  margin-bottom: 3.2rem;
+}
+
+.cleaning__img {
+  margin-bottom: 4.8rem;
+}
+
+.cleaning__img-title {
+  color: var(--primary-text);
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1.6rem;
+}
+
+.cleaning__img-desc {
+  color: var(--secondary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+
+.cleaning__list {
+  list-style: square;
+  margin-bottom: 1.6rem;
+}
+
+.cleaning__item {
+  margin-left: 3rem;
+  color: var(--primary-text);
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.6; /* 25.6px */
+}

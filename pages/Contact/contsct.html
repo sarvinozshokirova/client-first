@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client First | Contact</title>
+    <link rel="stylesheet" href="./contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- GLOBAL -->
+    <link rel="stylesheet" href="../../css/global.css" />
+    <!-- HOME -->
+    <!-- <link rel="stylesheet" href="./css/home.css" /> -->
+  </head>
+  <body>
+    <!-- HEADER START -->
+    <header class="header">
+      <div class="header__container container">
+        <a class="site-logo" href="../../index.html">
+          <img
+            class="site-logo__image"
+            src="../../images/site-logo.svg"
+            alt=""
+            weight="122"
+            height="28"
+          />
+        </a>
+        <nav class="sitenav">
+          <ul class="sitenav__list">
+            <li class="sitenav__item">
+              <a class="sitenav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav-link" href="../Abot/about.html">About us</a>
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav-link" href="../What We Do/whatwedo.html"
+                >What We Do</a
+              >
+            </li>
+            <li class="sitenav__item">
+              <a class="sitenav-link" href="../Media/media.html">Media</a>
+            </li>
+            <li class="sitenav__item">
+              <a id="active" class="sitenav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="btn btnm navbar-btn" href="../Donate/donate.html">Donate</a>
+      </div>
+    </header>
+
+    <!-- HEADER END -->
+    <!-- MAIN START -->
+    <main>
+      <section class="contbg">
+        <div class="contbg-container container">
+          <div class="contact-bg-text">
+            <div class="cont-heaf-text">
+              <span class="cont-line"></span>
+              <p class="contact-head-p">Contact us</p>
+            </div>
+            <h1 class="contact-bg-title">We'd love to hear from you</h1>
+            <p class="contact-bg-p">
+              Have any question in mind or want to enquire? Please feel free to
+              contact us through the form or the following details.
+            </p>
+          </div>
+          <div class="contact-bg-info">
+            <h3 class="contact-info-title">Let's talk!</h3>
+            <div class="contact-bg-info-adrec">
+              <p class="cont-tel-info">+1 23 456 789</p>
+              <a class="email-contact-bg" href="https://finsweet.com/"
+                >hello@finsweet.com</a
+              >
+            </div>
+            <span class="info-bg-line"></span>
+            <h3 class="contact-info-title">Headoffice</h3>
+            <a
+              class="bg-info-adress"
+              href="https://goo.gl/maps/sKhKeH3k2noXaWHn9"
+              >8 Brewery Drive, Hudson, NH 03051 USA</a
+            >
+            <h3 class="contact-info-title">Branch Office</h3>
+            <a class="bg-info-adress" href="#"
+              >178 Marconi St., Venice, 34293 Italy</a
+            >
+            <div class="bg-info-link">
+              <a href="#"><img src="../../images/facebook-icon.svg" alt=""></i></a>
+              <a href="#"><img src="../../images/twitter-icon.svg" alt=""></i></a>
+              <a href="#"><img src="../../images/linkedin-icon.svg" alt=""></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT BG END  -->
+      <!-- FORM  -->
+
+      <section class="form">
+        <div class="form-container container">
+          <form
+            action="https://echo.htmlacademy.ru"
+            class="form-wrapper"
+            method="post"
+          >
+            <div class="inputs-wrapper">
+              <div class="input">
+                <label class="form__input__title" for="input-name"
+                  >First name</label
+                >
+                <input
+                  class="form__input"
+                  id="input-name"
+                  type="text"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="input">
+                <label class="form__input__title" for="input-surname"
+                  >Last name</label
+                >
+                <input
+                  class="form__input"
+                  id="input-surname"
+                  type="text"
+                  name="surname"
+                  required
+                />
+              </div>
+            </div>
+            <div class="inputs-wrapper">
+              <div class="input">
+                <label class="form__input__title" for="input-email"
+                  >Email Id</label
+                >
+                <input
+                  class="form__input"
+                  id="input-email"
+                  type="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="input">
+                <label class="form__input__title" for="input-subject"
+                  >Subject</label
+                >
+                <input
+                  class="form__input"
+                  id="input-subject"
+                  type="text"
+                  name="subject"
+                  required
+                />
+              </div>
+            </div>
+            <div class="input">
+              <label class="form__input__title" for="input-message"
+                >Message</label
+              >
+              <input
+                class="form__message"
+                id="input-message"
+                type="text"
+                name="message"
+              />
+            </div>
+            <button class="contact-form-btn">Send message</button>
+          </form>
+        </div>
+      </section>
+      <!-- CONTACT MAP  -->
+
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.426682974675!2d-86.0660781363988!3d39.7974198510102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886b4e51e0aa8f17%3A0x289aa70b22552ae9!2sIndy%20Town%20Apartments!5e0!3m2!1sen!2s!4v1693167771031!5m2!1sen!2s"
+          width="100%"
+          height="448"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+
+      <!-- CONTACT MAP END -->
+    </main>
+    <!-- MAIN END -->
+    <!-- FOOTER START -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <a class="footer-logo" href="../../index.html"
+          ><img
+            class="footer-logo-img"
+            src="../../images/footer-logo-img.svg"
+            alt=""
+            width="122"
+            height="28"
+          />
+        </a>
+        <div class="footer-list__items">
+          <ul class="fotter__list">
+            <li class="footer__item footer__item-title">Our team</li>
+            <li class="footer__item">
+              <a class="footer__link" href="../Abot/about.html">About us</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#">Team</a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="../What We Do/whatwedo.html"
+                >What we do</a
+              >
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="../Contact/contsct.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-list__items">
+          <ul class="fotter__list">
+            <li class="footer-item footer__item-title">More</li>
+            <li class="footer-item">
+              <a class="footer__link" href="../projectReadMore/promore.html"
+                >Projects</a
+              >
+            </li>
+            <li class="footer-item">
+              <a class="footer__link" href="#">Events</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer__link" href="../Donate/donate.html">Donate</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer__link" href="../blogpost/blogpost.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-list__items">
+          <ul class="fotter__list">
+            <li class="footer-item footer__item-title">Connect</li>
+            <li class="footer-item">
+              <a class="footer__link" href="#">Facebook</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer__link" href="#">Instagram</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer__link" href="#">Twitter</a>
+            </li>
+            <li class="footer-item">
+              <a class="footer__link" href="#">Linkdin</a>
+            </li>
+          </ul>
+        </div>
+        <div class="form">
+          <h1 class="footer__foorm-title">Subscribe to get latest updates</h1>
+          <div class="adress">
+            <input type="email" name="email" placeholder="Your email" />
+            <button class="primary-btn footer-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+  </body>
+</html>
